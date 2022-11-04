@@ -1,0 +1,255 @@
+<ENTRY>
+{
+ "thisFile": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/fpgabinary.hw.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Nov  4 16:20:18 2022",
+ "timestampMillis": "1667550018768",
+ "buildStep": {
+  "cmdId": "1c23b4cb-6750-4df2-889d-6278e5c81e44",
+  "name": "v++",
+  "logFile": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/fpgabinary.hw/fpgabinary.hw.steps.log",
+  "commandLine": "/opt/Xilinx/Vitis/2022.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --vivado.param project.writeIntermediateCheckpoints=1 --advanced.param \"compiler.reportFailfast=pre_opt_design {__KERNEL_NAMES__} post_opt_design {__OCL_TOP__}\" --advanced.param \"compiler.reportQorAssessment=pre_opt_design {} post_opt_design {}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -t hw --platform xilinx_u50_gen3x16_xdma_5_202210_1 -R1 --save-temps --temp_dir ./build/vpp_temp_dir --log_dir ./build/vpp_log_dir --profile.data all:all:all:all --profile.trace_memory DDR[3] --profile.stall all:all:all --config krnl_build_options.cfg -c -k Filter2DKernel -I./src ./src/filter2d_hw.cpp -o build/fpgabinary.hw.xo ",
+  "args": [
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u50_gen3x16_xdma_5_202210_1",
+   "-R1",
+   "--save-temps",
+   "--temp_dir",
+   "./build/vpp_temp_dir",
+   "--log_dir",
+   "./build/vpp_log_dir",
+   "--profile.data",
+   "all:all:all:all",
+   "--profile.trace_memory",
+   "DDR[3]",
+   "--profile.stall",
+   "all:all:all",
+   "--config",
+   "krnl_build_options.cfg",
+   "-c",
+   "-k",
+   "Filter2DKernel",
+   "-I./src",
+   "./src/filter2d_hw.cpp",
+   "-o",
+   "build/fpgabinary.hw.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/krnl_build_options.cfg",
+    "content": "[connectivity]\nnk=Filter2DKernel:3\nsp=Filter2DKernel_1.m_axi_gmem:DDR[1]\nsp=Filter2DKernel_2.m_axi_gmem:DDR[1]\nsp=Filter2DKernel_3.m_axi_gmem:DDR[1]\n"
+   }
+  ],
+  "cwd": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Nov  4 16:20:18 2022",
+ "timestampMillis": "1667550018772",
+ "status": {
+  "cmdId": "1c23b4cb-6750-4df2-889d-6278e5c81e44",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Nov  4 16:20:22 2022",
+ "timestampMillis": "1667550022174",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u50_gen3x16_xdma_5_202210_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_5_202210_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "Filter2DKernel",
+     "file": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/fpgabinary.hw.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/src/filter2d_hw.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.1. SW Build 3524075 on 2022-04-13-17:42:45"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Nov  4 16:20:22 2022",
+ "timestampMillis": "1667550022181",
+ "buildStep": {
+  "cmdId": "75137da5-cf7e-4d9d-9725-dc65d3cb3f2e",
+  "name": "vitis_hls",
+  "logFile": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/fpgabinary.hw/Filter2DKernel/vitis_hls.log",
+  "commandLine": "vitis_hls -f /mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/fpgabinary.hw/Filter2DKernel/Filter2DKernel.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/fpgabinary.hw/Filter2DKernel/Filter2DKernel.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Nov  4 16:20:22 2022",
+ "timestampMillis": "1667550022182",
+ "status": {
+  "cmdId": "75137da5-cf7e-4d9d-9725-dc65d3cb3f2e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Nov  4 16:21:42 2022",
+ "timestampMillis": "1667550102007",
+ "status": {
+  "cmdId": "75137da5-cf7e-4d9d-9725-dc65d3cb3f2e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Nov  4 16:21:42 2022",
+ "timestampMillis": "1667550102775",
+ "report": {
+  "path": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/fpgabinary.hw/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/Filter2DKernel.design.xml",
+  "name": "Filter2DKernel",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_REPORT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Nov  4 16:21:42 2022",
+ "timestampMillis": "1667550102776",
+ "report": {
+  "path": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/fpgabinary.hw/Filter2DKernel/Filter2DKernel/solution/.autopilot/db/.message_syn.xml",
+  "name": "Filter2DKernel",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_DRC_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Nov  4 16:21:42 2022",
+ "timestampMillis": "1667550102781",
+ "report": {
+  "path": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/reports/fpgabinary.hw/hls_reports/Filter2DKernel_csynth.rpt",
+  "name": "Filter2DKernel",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Nov  4 16:21:42 2022",
+ "timestampMillis": "1667550102781",
+ "report": {
+  "path": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/fpgabinary.hw/Filter2DKernel/Filter2DKernel/solution/syn/report/Filter2DKernel_csynth.xml",
+  "name": "Filter2DKernel",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Nov  4 16:21:42 2022",
+ "timestampMillis": "1667550102809",
+ "report": {
+  "path": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/reports/fpgabinary.hw/system_estimate_fpgabinary.hw.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Nov  4 16:21:43 2022",
+ "timestampMillis": "1667550103790",
+ "report": {
+  "path": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/reports/fpgabinary.hw/v++_compile_fpgabinary.hw_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Nov  4 16:21:43 2022",
+ "timestampMillis": "1667550103791",
+ "report": {
+  "path": "/mnt/HLSNAS/01.JknbyU/Vitis-Tutorials/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial/build/vpp_temp_dir/v++_compile_fpgabinary.hw_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Nov  4 16:21:43 2022",
+ "timestampMillis": "1667550103798",
+ "status": {
+  "cmdId": "1c23b4cb-6750-4df2-889d-6278e5c81e44",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

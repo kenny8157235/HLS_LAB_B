@@ -1,0 +1,14 @@
+Fri Nov  4 16:32:59 2022: Server was asked to start on port: '36083'
+Fri Nov  4 16:32:59 2022: Server is using token UUID: 'd4fbfad7-dee3-45ab-a9cc-12850ecb23c4'
+Fri Nov  4 16:32:59 2022: Attempting to start server on port '36083'
+Fri Nov  4 16:32:59 2022: XRC main fifo: created main fifo '/tmp/xrcmaind4fbfad7-dee3-45ab-a9cc-12850ecb23c4', fd read = 13
+Fri Nov  4 16:32:59 2022: Running Rule Check Server
+Fri Nov  4 16:32:59 2022: Version 1.6.1
+Fri Nov  4 16:33:00 2022: Rule Check Server: Accepted socket connection from client
+Fri Nov  4 16:33:00 2022: EXCHANGE_TOKEN received, server token: d4fbfad7-dee3-45ab-a9cc-12850ecb23c4, passed token: d4fbfad7-dee3-45ab-a9cc-12850ecb23c4
+Fri Nov  4 16:33:00 2022: SESSION_MGR: creating session with session uuid: 'e4f29d26-95a2-4c38-8e6c-9d7f515689fb' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:33:04 2022: Rule Check Server: Accepted socket connection from client
+Fri Nov  4 16:33:25 2022: Rule Check Server: Accepted socket connection from client
+Fri Nov  4 16:46:41 2022: Rule Check Server: Accepted socket connection from client
+Fri Nov  4 16:51:01 2022: Rule Check Server: Accepted socket connection from client
+Fri Nov  4 18:05:45 2022: SESSION_MGR: closing session for UUID 'e4f29d26-95a2-4c38-8e6c-9d7f515689fb' with name 'v++_link_fpgabinary.hw'

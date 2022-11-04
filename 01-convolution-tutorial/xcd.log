@@ -1,0 +1,527 @@
+Fri Nov  4 16:15:18 2022: Running xcd server. This server was built by gradle.
+Fri Nov  4 16:15:18 2022: Server was asked to start on port: '43987'
+Fri Nov  4 16:15:18 2022: Server is using token UUID: '71c6d255-27b6-4100-b373-3d8227fb953c'
+Fri Nov  4 16:15:18 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Nov  4 16:15:18 2022: Attempting to start server on port '43987'
+Fri Nov  4 16:15:18 2022: XCD main fifo: created main fifo '/tmp/xcdmain71c6d255-27b6-4100-b373-3d8227fb953c', fd read = 13
+Fri Nov  4 16:15:18 2022: Running Dispatch Server
+Fri Nov  4 16:15:18 2022: Version 2.2.0
+Fri Nov  4 16:15:27 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:15:27 2022: Starting Socket connection
+Fri Nov  4 16:15:27 2022: EXCHANGE_TOKEN received, server token: 71c6d255-27b6-4100-b373-3d8227fb953c, passed token: 71c6d255-27b6-4100-b373-3d8227fb953c
+Fri Nov  4 16:15:27 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Nov  4 16:15:27 2022: SESSION_MGR: creating session with session uuid: '8064f231-8000-477b-8de1-5677966e0b8d' and name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:15:27 2022: KERNEL_SVC: creating session with uuid: '8064f231-8000-477b-8de1-5677966e0b8d' and name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:15:27 2022: GUIDANCE_SMGR: creating guidance session with uuid: '8064f231-8000-477b-8de1-5677966e0b8d' and name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:15:27 2022: SYSTEM_DIAGRAM: creating session with uuid: '8064f231-8000-477b-8de1-5677966e0b8d' and name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:15:29 2022: SESSION_MGR: closing session for UUID '8064f231-8000-477b-8de1-5677966e0b8d' with name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:15:29 2022: KERNEL_SVC: closing session for UUID '8064f231-8000-477b-8de1-5677966e0b8d' with name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:15:29 2022: GUIDANCE_SMGR: closing session for UUID '8064f231-8000-477b-8de1-5677966e0b8d' with name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:15:29 2022: SYSTEM_DIAGRAM: closing session for UUID '8064f231-8000-477b-8de1-5677966e0b8d' with name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:15:29 2022: STOP_SERVER received, server token: 71c6d255-27b6-4100-b373-3d8227fb953c, passed token: 71c6d255-27b6-4100-b373-3d8227fb953c
+Fri Nov  4 16:15:29 2022: Socket received request to stop server.
+Fri Nov  4 16:15:29 2022: Dispatch Server: do_await_stop
+Fri Nov  4 16:15:29 2022: Dispatch Server: stopping mainFifo_
+Fri Nov  4 16:15:29 2022: XCD main fifo: Stopping
+Fri Nov  4 16:15:29 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Nov  4 16:15:29 2022: XCD main fifo: bytes_transferred: 0
+Fri Nov  4 16:15:29 2022: SERVER: destructor for server bound to port 43987
+Fri Nov  4 16:15:29 2022: XCD main fifo: Good unlink of /tmp/xcdmain71c6d255-27b6-4100-b373-3d8227fb953c
+Fri Nov  4 16:15:29 2022: Server exiting with status 0.
+Fri Nov  4 16:15:29 2022: Closing log file.
+Fri Nov  4 16:20:09 2022: Running xcd server. This server was built by gradle.
+Fri Nov  4 16:20:09 2022: Server was asked to start on port: '44991'
+Fri Nov  4 16:20:09 2022: Server is using token UUID: '1e6e011d-9802-4cbb-ae4d-bdb3792098dc'
+Fri Nov  4 16:20:09 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Nov  4 16:20:09 2022: Attempting to start server on port '44991'
+Fri Nov  4 16:20:09 2022: XCD main fifo: created main fifo '/tmp/xcdmain1e6e011d-9802-4cbb-ae4d-bdb3792098dc', fd read = 13
+Fri Nov  4 16:20:09 2022: Running Dispatch Server
+Fri Nov  4 16:20:09 2022: Version 2.2.0
+Fri Nov  4 16:20:18 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:20:18 2022: Starting Socket connection
+Fri Nov  4 16:20:18 2022: EXCHANGE_TOKEN received, server token: 1e6e011d-9802-4cbb-ae4d-bdb3792098dc, passed token: 1e6e011d-9802-4cbb-ae4d-bdb3792098dc
+Fri Nov  4 16:20:18 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Nov  4 16:20:18 2022: SESSION_MGR: creating session with session uuid: '6415a8e1-a70e-4675-bde1-623ea7e0f588' and name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:20:18 2022: KERNEL_SVC: creating session with uuid: '6415a8e1-a70e-4675-bde1-623ea7e0f588' and name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:20:18 2022: GUIDANCE_SMGR: creating guidance session with uuid: '6415a8e1-a70e-4675-bde1-623ea7e0f588' and name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:20:18 2022: SYSTEM_DIAGRAM: creating session with uuid: '6415a8e1-a70e-4675-bde1-623ea7e0f588' and name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:21:43 2022: SESSION_MGR: closing session for UUID '6415a8e1-a70e-4675-bde1-623ea7e0f588' with name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:21:43 2022: KERNEL_SVC: closing session for UUID '6415a8e1-a70e-4675-bde1-623ea7e0f588' with name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:21:43 2022: GUIDANCE_SMGR: closing session for UUID '6415a8e1-a70e-4675-bde1-623ea7e0f588' with name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:21:43 2022: SYSTEM_DIAGRAM: closing session for UUID '6415a8e1-a70e-4675-bde1-623ea7e0f588' with name 'v++_compile_fpgabinary.hw'
+Fri Nov  4 16:21:43 2022: STOP_SERVER received, server token: 1e6e011d-9802-4cbb-ae4d-bdb3792098dc, passed token: 1e6e011d-9802-4cbb-ae4d-bdb3792098dc
+Fri Nov  4 16:21:43 2022: Socket received request to stop server.
+Fri Nov  4 16:21:43 2022: Dispatch Server: do_await_stop
+Fri Nov  4 16:21:43 2022: Dispatch Server: stopping mainFifo_
+Fri Nov  4 16:21:43 2022: XCD main fifo: Stopping
+Fri Nov  4 16:21:43 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Nov  4 16:21:43 2022: XCD main fifo: bytes_transferred: 0
+Fri Nov  4 16:21:43 2022: SERVER: destructor for server bound to port 44991
+Fri Nov  4 16:21:43 2022: XCD main fifo: Good unlink of /tmp/xcdmain1e6e011d-9802-4cbb-ae4d-bdb3792098dc
+Fri Nov  4 16:21:43 2022: Server exiting with status 0.
+Fri Nov  4 16:21:43 2022: Closing log file.
+Fri Nov  4 16:21:45 2022: Running xcd server. This server was built by gradle.
+Fri Nov  4 16:21:45 2022: Server was asked to start on port: '35641'
+Fri Nov  4 16:21:45 2022: Server is using token UUID: '3850698e-0199-4576-aa8c-8a5354b0c67f'
+Fri Nov  4 16:21:45 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Nov  4 16:21:45 2022: Attempting to start server on port '35641'
+Fri Nov  4 16:21:45 2022: XCD main fifo: created main fifo '/tmp/xcdmain3850698e-0199-4576-aa8c-8a5354b0c67f', fd read = 13
+Fri Nov  4 16:21:45 2022: Running Dispatch Server
+Fri Nov  4 16:21:45 2022: Version 2.2.0
+Fri Nov  4 16:21:54 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:21:54 2022: Starting Socket connection
+Fri Nov  4 16:21:54 2022: EXCHANGE_TOKEN received, server token: 3850698e-0199-4576-aa8c-8a5354b0c67f, passed token: 3850698e-0199-4576-aa8c-8a5354b0c67f
+Fri Nov  4 16:21:54 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Nov  4 16:21:54 2022: SESSION_MGR: creating session with session uuid: '495a8d8f-4988-4c06-96d4-2886b53e5353' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:21:54 2022: KERNEL_SVC: creating session with uuid: '495a8d8f-4988-4c06-96d4-2886b53e5353' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:21:54 2022: GUIDANCE_SMGR: creating guidance session with uuid: '495a8d8f-4988-4c06-96d4-2886b53e5353' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:21:54 2022: SYSTEM_DIAGRAM: creating session with uuid: '495a8d8f-4988-4c06-96d4-2886b53e5353' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:22:06 2022: SESSION_MGR: closing session for UUID '495a8d8f-4988-4c06-96d4-2886b53e5353' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:22:06 2022: KERNEL_SVC: closing session for UUID '495a8d8f-4988-4c06-96d4-2886b53e5353' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:22:06 2022: GUIDANCE_SMGR: closing session for UUID '495a8d8f-4988-4c06-96d4-2886b53e5353' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:22:06 2022: SYSTEM_DIAGRAM: closing session for UUID '495a8d8f-4988-4c06-96d4-2886b53e5353' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:22:06 2022: STOP_SERVER received, server token: 3850698e-0199-4576-aa8c-8a5354b0c67f, passed token: 3850698e-0199-4576-aa8c-8a5354b0c67f
+Fri Nov  4 16:22:06 2022: Socket received request to stop server.
+Fri Nov  4 16:22:06 2022: Dispatch Server: do_await_stop
+Fri Nov  4 16:22:06 2022: Dispatch Server: stopping mainFifo_
+Fri Nov  4 16:22:06 2022: XCD main fifo: Stopping
+Fri Nov  4 16:22:06 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Nov  4 16:22:06 2022: XCD main fifo: bytes_transferred: 0
+Fri Nov  4 16:22:06 2022: SERVER: destructor for server bound to port 35641
+Fri Nov  4 16:22:06 2022: XCD main fifo: Good unlink of /tmp/xcdmain3850698e-0199-4576-aa8c-8a5354b0c67f
+Fri Nov  4 16:22:06 2022: Server exiting with status 0.
+Fri Nov  4 16:22:06 2022: Closing log file.
+Fri Nov  4 16:28:26 2022: Running xcd server. This server was built by gradle.
+Fri Nov  4 16:28:26 2022: Server was asked to start on port: '44437'
+Fri Nov  4 16:28:26 2022: Server is using token UUID: 'ba0ed729-e979-4156-9365-2de4a1022ff3'
+Fri Nov  4 16:28:26 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Nov  4 16:28:26 2022: Attempting to start server on port '44437'
+Fri Nov  4 16:28:26 2022: XCD main fifo: created main fifo '/tmp/xcdmainba0ed729-e979-4156-9365-2de4a1022ff3', fd read = 13
+Fri Nov  4 16:28:26 2022: Running Dispatch Server
+Fri Nov  4 16:28:26 2022: Version 2.2.0
+Fri Nov  4 16:28:35 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:28:35 2022: Starting Socket connection
+Fri Nov  4 16:28:35 2022: EXCHANGE_TOKEN received, server token: ba0ed729-e979-4156-9365-2de4a1022ff3, passed token: ba0ed729-e979-4156-9365-2de4a1022ff3
+Fri Nov  4 16:28:36 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Nov  4 16:28:36 2022: SESSION_MGR: creating session with session uuid: '5d507f10-d1f3-4279-b8ad-ad31102350e9' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:28:36 2022: KERNEL_SVC: creating session with uuid: '5d507f10-d1f3-4279-b8ad-ad31102350e9' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:28:36 2022: GUIDANCE_SMGR: creating guidance session with uuid: '5d507f10-d1f3-4279-b8ad-ad31102350e9' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:28:36 2022: SYSTEM_DIAGRAM: creating session with uuid: '5d507f10-d1f3-4279-b8ad-ad31102350e9' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:28:47 2022: SESSION_MGR: closing session for UUID '5d507f10-d1f3-4279-b8ad-ad31102350e9' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:28:47 2022: KERNEL_SVC: closing session for UUID '5d507f10-d1f3-4279-b8ad-ad31102350e9' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:28:47 2022: GUIDANCE_SMGR: closing session for UUID '5d507f10-d1f3-4279-b8ad-ad31102350e9' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:28:47 2022: SYSTEM_DIAGRAM: closing session for UUID '5d507f10-d1f3-4279-b8ad-ad31102350e9' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:28:47 2022: STOP_SERVER received, server token: ba0ed729-e979-4156-9365-2de4a1022ff3, passed token: ba0ed729-e979-4156-9365-2de4a1022ff3
+Fri Nov  4 16:28:47 2022: Socket received request to stop server.
+Fri Nov  4 16:28:47 2022: Dispatch Server: do_await_stop
+Fri Nov  4 16:28:47 2022: Dispatch Server: stopping mainFifo_
+Fri Nov  4 16:28:47 2022: XCD main fifo: Stopping
+Fri Nov  4 16:28:47 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Nov  4 16:28:47 2022: XCD main fifo: bytes_transferred: 0
+Fri Nov  4 16:28:47 2022: SERVER: destructor for server bound to port 44437
+Fri Nov  4 16:28:47 2022: XCD main fifo: Good unlink of /tmp/xcdmainba0ed729-e979-4156-9365-2de4a1022ff3
+Fri Nov  4 16:28:47 2022: Server exiting with status 0.
+Fri Nov  4 16:28:47 2022: Closing log file.
+Fri Nov  4 16:30:47 2022: Running xcd server. This server was built by gradle.
+Fri Nov  4 16:30:47 2022: Server was asked to start on port: '43207'
+Fri Nov  4 16:30:47 2022: Server is using token UUID: '2a5db229-9568-4fc2-ade6-2c13c80abf4e'
+Fri Nov  4 16:30:47 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Nov  4 16:30:47 2022: Attempting to start server on port '43207'
+Fri Nov  4 16:30:47 2022: XCD main fifo: created main fifo '/tmp/xcdmain2a5db229-9568-4fc2-ade6-2c13c80abf4e', fd read = 13
+Fri Nov  4 16:30:47 2022: Running Dispatch Server
+Fri Nov  4 16:30:47 2022: Version 2.2.0
+Fri Nov  4 16:30:56 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:30:56 2022: Starting Socket connection
+Fri Nov  4 16:30:56 2022: EXCHANGE_TOKEN received, server token: 2a5db229-9568-4fc2-ade6-2c13c80abf4e, passed token: 2a5db229-9568-4fc2-ade6-2c13c80abf4e
+Fri Nov  4 16:30:56 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Nov  4 16:30:56 2022: SESSION_MGR: creating session with session uuid: '2e345a40-2330-4e15-9436-7a3bb920ff01' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:30:56 2022: KERNEL_SVC: creating session with uuid: '2e345a40-2330-4e15-9436-7a3bb920ff01' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:30:56 2022: GUIDANCE_SMGR: creating guidance session with uuid: '2e345a40-2330-4e15-9436-7a3bb920ff01' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:30:56 2022: SYSTEM_DIAGRAM: creating session with uuid: '2e345a40-2330-4e15-9436-7a3bb920ff01' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:31:08 2022: SESSION_MGR: closing session for UUID '2e345a40-2330-4e15-9436-7a3bb920ff01' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:31:08 2022: KERNEL_SVC: closing session for UUID '2e345a40-2330-4e15-9436-7a3bb920ff01' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:31:08 2022: GUIDANCE_SMGR: closing session for UUID '2e345a40-2330-4e15-9436-7a3bb920ff01' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:31:08 2022: SYSTEM_DIAGRAM: closing session for UUID '2e345a40-2330-4e15-9436-7a3bb920ff01' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:31:08 2022: STOP_SERVER received, server token: 2a5db229-9568-4fc2-ade6-2c13c80abf4e, passed token: 2a5db229-9568-4fc2-ade6-2c13c80abf4e
+Fri Nov  4 16:31:08 2022: Socket received request to stop server.
+Fri Nov  4 16:31:08 2022: Dispatch Server: do_await_stop
+Fri Nov  4 16:31:08 2022: Dispatch Server: stopping mainFifo_
+Fri Nov  4 16:31:08 2022: XCD main fifo: Stopping
+Fri Nov  4 16:31:08 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Nov  4 16:31:08 2022: XCD main fifo: bytes_transferred: 0
+Fri Nov  4 16:31:08 2022: SERVER: destructor for server bound to port 43207
+Fri Nov  4 16:31:08 2022: XCD main fifo: Good unlink of /tmp/xcdmain2a5db229-9568-4fc2-ade6-2c13c80abf4e
+Fri Nov  4 16:31:08 2022: Server exiting with status 0.
+Fri Nov  4 16:31:08 2022: Closing log file.
+Fri Nov  4 16:32:01 2022: Running xcd server. This server was built by gradle.
+Fri Nov  4 16:32:01 2022: Server was asked to start on port: '45887'
+Fri Nov  4 16:32:01 2022: Server is using token UUID: 'f67bfb49-59bf-4c24-8720-91ed15fc68ee'
+Fri Nov  4 16:32:01 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Nov  4 16:32:01 2022: Attempting to start server on port '45887'
+Fri Nov  4 16:32:01 2022: XCD main fifo: created main fifo '/tmp/xcdmainf67bfb49-59bf-4c24-8720-91ed15fc68ee', fd read = 13
+Fri Nov  4 16:32:01 2022: Running Dispatch Server
+Fri Nov  4 16:32:01 2022: Version 2.2.0
+Fri Nov  4 16:32:10 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:32:10 2022: Starting Socket connection
+Fri Nov  4 16:32:10 2022: EXCHANGE_TOKEN received, server token: f67bfb49-59bf-4c24-8720-91ed15fc68ee, passed token: f67bfb49-59bf-4c24-8720-91ed15fc68ee
+Fri Nov  4 16:32:11 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Nov  4 16:32:11 2022: SESSION_MGR: creating session with session uuid: 'db6c959d-dc46-4600-99ba-d3ec03e0c818' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:11 2022: KERNEL_SVC: creating session with uuid: 'db6c959d-dc46-4600-99ba-d3ec03e0c818' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:11 2022: GUIDANCE_SMGR: creating guidance session with uuid: 'db6c959d-dc46-4600-99ba-d3ec03e0c818' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:11 2022: SYSTEM_DIAGRAM: creating session with uuid: 'db6c959d-dc46-4600-99ba-d3ec03e0c818' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:26 2022: SESSION_MGR: closing session for UUID 'db6c959d-dc46-4600-99ba-d3ec03e0c818' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:26 2022: KERNEL_SVC: closing session for UUID 'db6c959d-dc46-4600-99ba-d3ec03e0c818' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:26 2022: GUIDANCE_SMGR: closing session for UUID 'db6c959d-dc46-4600-99ba-d3ec03e0c818' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:26 2022: SYSTEM_DIAGRAM: closing session for UUID 'db6c959d-dc46-4600-99ba-d3ec03e0c818' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:26 2022: STOP_SERVER received, server token: f67bfb49-59bf-4c24-8720-91ed15fc68ee, passed token: f67bfb49-59bf-4c24-8720-91ed15fc68ee
+Fri Nov  4 16:32:26 2022: Socket received request to stop server.
+Fri Nov  4 16:32:26 2022: Dispatch Server: do_await_stop
+Fri Nov  4 16:32:26 2022: Dispatch Server: stopping mainFifo_
+Fri Nov  4 16:32:26 2022: XCD main fifo: Stopping
+Fri Nov  4 16:32:26 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Nov  4 16:32:26 2022: XCD main fifo: bytes_transferred: 0
+Fri Nov  4 16:32:26 2022: SERVER: destructor for server bound to port 45887
+Fri Nov  4 16:32:26 2022: XCD main fifo: Good unlink of /tmp/xcdmainf67bfb49-59bf-4c24-8720-91ed15fc68ee
+Fri Nov  4 16:32:26 2022: Server exiting with status 0.
+Fri Nov  4 16:32:26 2022: Closing log file.
+Fri Nov  4 16:32:49 2022: Running xcd server. This server was built by gradle.
+Fri Nov  4 16:32:49 2022: Server was asked to start on port: '36617'
+Fri Nov  4 16:32:49 2022: Server is using token UUID: '34bfc1bb-fadb-40c3-a66d-59f440ce5f0a'
+Fri Nov  4 16:32:49 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Nov  4 16:32:49 2022: Attempting to start server on port '36617'
+Fri Nov  4 16:32:49 2022: XCD main fifo: created main fifo '/tmp/xcdmain34bfc1bb-fadb-40c3-a66d-59f440ce5f0a', fd read = 13
+Fri Nov  4 16:32:49 2022: Running Dispatch Server
+Fri Nov  4 16:32:49 2022: Version 2.2.0
+Fri Nov  4 16:32:59 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:32:59 2022: Starting Socket connection
+Fri Nov  4 16:32:59 2022: EXCHANGE_TOKEN received, server token: 34bfc1bb-fadb-40c3-a66d-59f440ce5f0a, passed token: 34bfc1bb-fadb-40c3-a66d-59f440ce5f0a
+Fri Nov  4 16:32:59 2022: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Nov  4 16:32:59 2022: SESSION_MGR: creating session with session uuid: '0565c519-3eef-480e-ba38-5ecf5361997e' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:59 2022: KERNEL_SVC: creating session with uuid: '0565c519-3eef-480e-ba38-5ecf5361997e' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:59 2022: GUIDANCE_SMGR: creating guidance session with uuid: '0565c519-3eef-480e-ba38-5ecf5361997e' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:32:59 2022: SYSTEM_DIAGRAM: creating session with uuid: '0565c519-3eef-480e-ba38-5ecf5361997e' and name 'v++_link_fpgabinary.hw'
+Fri Nov  4 16:33:16 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:33:16 2022: Starting Socket connection
+Fri Nov  4 16:33:25 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:33:25 2022: Starting Socket connection
+Fri Nov  4 16:36:13 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:13 2022: Starting Socket connection
+Fri Nov  4 16:36:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:14 2022: Starting Socket connection
+Fri Nov  4 16:36:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:14 2022: Starting Socket connection
+Fri Nov  4 16:36:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:14 2022: Starting Socket connection
+Fri Nov  4 16:36:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:14 2022: Starting Socket connection
+Fri Nov  4 16:36:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:14 2022: Starting Socket connection
+Fri Nov  4 16:36:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:14 2022: Starting Socket connection
+Fri Nov  4 16:36:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:14 2022: Starting Socket connection
+Fri Nov  4 16:36:59 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:59 2022: Starting Socket connection
+Fri Nov  4 16:36:59 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:59 2022: Starting Socket connection
+Fri Nov  4 16:36:59 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:59 2022: Starting Socket connection
+Fri Nov  4 16:36:59 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:36:59 2022: Starting Socket connection
+Fri Nov  4 16:37:02 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:02 2022: Starting Socket connection
+Fri Nov  4 16:37:03 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:03 2022: Starting Socket connection
+Fri Nov  4 16:37:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:14 2022: Starting Socket connection
+Fri Nov  4 16:37:42 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:42 2022: Starting Socket connection
+Fri Nov  4 16:37:48 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:48 2022: Starting Socket connection
+Fri Nov  4 16:37:48 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:48 2022: Starting Socket connection
+Fri Nov  4 16:37:48 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:48 2022: Starting Socket connection
+Fri Nov  4 16:37:52 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:52 2022: Starting Socket connection
+Fri Nov  4 16:37:55 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:55 2022: Starting Socket connection
+Fri Nov  4 16:37:55 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:37:55 2022: Starting Socket connection
+Fri Nov  4 16:38:19 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:19 2022: Starting Socket connection
+Fri Nov  4 16:38:32 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:32 2022: Starting Socket connection
+Fri Nov  4 16:38:32 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:32 2022: Starting Socket connection
+Fri Nov  4 16:38:34 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:34 2022: Starting Socket connection
+Fri Nov  4 16:38:35 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:35 2022: Starting Socket connection
+Fri Nov  4 16:38:40 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:40 2022: Starting Socket connection
+Fri Nov  4 16:38:40 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:40 2022: Starting Socket connection
+Fri Nov  4 16:38:40 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:40 2022: Starting Socket connection
+Fri Nov  4 16:38:43 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:43 2022: Starting Socket connection
+Fri Nov  4 16:38:45 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:45 2022: Starting Socket connection
+Fri Nov  4 16:38:46 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:46 2022: Starting Socket connection
+Fri Nov  4 16:38:52 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:52 2022: Starting Socket connection
+Fri Nov  4 16:38:52 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:38:52 2022: Starting Socket connection
+Fri Nov  4 16:39:04 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:39:04 2022: Starting Socket connection
+Fri Nov  4 16:39:05 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:39:05 2022: Starting Socket connection
+Fri Nov  4 16:39:16 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:39:16 2022: Starting Socket connection
+Fri Nov  4 16:39:26 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:39:26 2022: Starting Socket connection
+Fri Nov  4 16:39:26 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:39:26 2022: Starting Socket connection
+Fri Nov  4 16:39:33 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:39:33 2022: Starting Socket connection
+Fri Nov  4 16:39:34 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:39:34 2022: Starting Socket connection
+Fri Nov  4 16:40:03 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:03 2022: Starting Socket connection
+Fri Nov  4 16:40:11 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:11 2022: Starting Socket connection
+Fri Nov  4 16:40:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:14 2022: Starting Socket connection
+Fri Nov  4 16:40:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:14 2022: Starting Socket connection
+Fri Nov  4 16:40:23 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:23 2022: Starting Socket connection
+Fri Nov  4 16:40:25 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:25 2022: Starting Socket connection
+Fri Nov  4 16:40:27 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:27 2022: Starting Socket connection
+Fri Nov  4 16:40:36 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:36 2022: Starting Socket connection
+Fri Nov  4 16:40:36 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:36 2022: Starting Socket connection
+Fri Nov  4 16:40:37 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:37 2022: Starting Socket connection
+Fri Nov  4 16:40:48 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:48 2022: Starting Socket connection
+Fri Nov  4 16:40:48 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:48 2022: Starting Socket connection
+Fri Nov  4 16:40:49 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:40:49 2022: Starting Socket connection
+Fri Nov  4 16:41:00 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:00 2022: Starting Socket connection
+Fri Nov  4 16:41:00 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:00 2022: Starting Socket connection
+Fri Nov  4 16:41:00 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:00 2022: Starting Socket connection
+Fri Nov  4 16:41:01 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:01 2022: Starting Socket connection
+Fri Nov  4 16:41:05 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:05 2022: Starting Socket connection
+Fri Nov  4 16:41:12 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:12 2022: Starting Socket connection
+Fri Nov  4 16:41:12 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:12 2022: Starting Socket connection
+Fri Nov  4 16:41:13 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:13 2022: Starting Socket connection
+Fri Nov  4 16:41:16 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:16 2022: Starting Socket connection
+Fri Nov  4 16:41:38 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:38 2022: Starting Socket connection
+Fri Nov  4 16:41:47 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:47 2022: Starting Socket connection
+Fri Nov  4 16:41:51 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:51 2022: Starting Socket connection
+Fri Nov  4 16:41:57 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:57 2022: Starting Socket connection
+Fri Nov  4 16:41:57 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:41:57 2022: Starting Socket connection
+Fri Nov  4 16:42:01 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:01 2022: Starting Socket connection
+Fri Nov  4 16:42:10 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:10 2022: Starting Socket connection
+Fri Nov  4 16:42:10 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:10 2022: Starting Socket connection
+Fri Nov  4 16:42:30 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:30 2022: Starting Socket connection
+Fri Nov  4 16:42:33 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:33 2022: Starting Socket connection
+Fri Nov  4 16:42:36 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:36 2022: Starting Socket connection
+Fri Nov  4 16:42:46 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:46 2022: Starting Socket connection
+Fri Nov  4 16:42:46 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:46 2022: Starting Socket connection
+Fri Nov  4 16:42:47 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:47 2022: Starting Socket connection
+Fri Nov  4 16:42:54 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:54 2022: Starting Socket connection
+Fri Nov  4 16:42:54 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:54 2022: Starting Socket connection
+Fri Nov  4 16:42:57 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:57 2022: Starting Socket connection
+Fri Nov  4 16:42:57 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:42:57 2022: Starting Socket connection
+Fri Nov  4 16:43:06 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:06 2022: Starting Socket connection
+Fri Nov  4 16:43:06 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:06 2022: Starting Socket connection
+Fri Nov  4 16:43:19 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:19 2022: Starting Socket connection
+Fri Nov  4 16:43:19 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:19 2022: Starting Socket connection
+Fri Nov  4 16:43:19 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:19 2022: Starting Socket connection
+Fri Nov  4 16:43:30 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:30 2022: Starting Socket connection
+Fri Nov  4 16:43:30 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:30 2022: Starting Socket connection
+Fri Nov  4 16:43:30 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:30 2022: Starting Socket connection
+Fri Nov  4 16:43:31 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:31 2022: Starting Socket connection
+Fri Nov  4 16:43:35 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:35 2022: Starting Socket connection
+Fri Nov  4 16:43:42 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:42 2022: Starting Socket connection
+Fri Nov  4 16:43:43 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:43 2022: Starting Socket connection
+Fri Nov  4 16:43:43 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:43 2022: Starting Socket connection
+Fri Nov  4 16:43:43 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:43 2022: Starting Socket connection
+Fri Nov  4 16:43:46 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:46 2022: Starting Socket connection
+Fri Nov  4 16:43:53 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:53 2022: Starting Socket connection
+Fri Nov  4 16:43:53 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:53 2022: Starting Socket connection
+Fri Nov  4 16:43:54 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:54 2022: Starting Socket connection
+Fri Nov  4 16:43:55 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:55 2022: Starting Socket connection
+Fri Nov  4 16:43:58 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:43:58 2022: Starting Socket connection
+Fri Nov  4 16:44:07 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:07 2022: Starting Socket connection
+Fri Nov  4 16:44:19 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:19 2022: Starting Socket connection
+Fri Nov  4 16:44:31 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:31 2022: Starting Socket connection
+Fri Nov  4 16:44:35 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:35 2022: Starting Socket connection
+Fri Nov  4 16:44:35 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:35 2022: Starting Socket connection
+Fri Nov  4 16:44:38 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:38 2022: Starting Socket connection
+Fri Nov  4 16:44:42 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:42 2022: Starting Socket connection
+Fri Nov  4 16:44:43 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:43 2022: Starting Socket connection
+Fri Nov  4 16:44:44 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:44 2022: Starting Socket connection
+Fri Nov  4 16:44:47 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:47 2022: Starting Socket connection
+Fri Nov  4 16:44:48 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:48 2022: Starting Socket connection
+Fri Nov  4 16:44:59 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:44:59 2022: Starting Socket connection
+Fri Nov  4 16:45:33 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:33 2022: Starting Socket connection
+Fri Nov  4 16:45:33 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:33 2022: Starting Socket connection
+Fri Nov  4 16:45:37 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:37 2022: Starting Socket connection
+Fri Nov  4 16:45:37 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:37 2022: Starting Socket connection
+Fri Nov  4 16:45:44 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:44 2022: Starting Socket connection
+Fri Nov  4 16:45:44 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:44 2022: Starting Socket connection
+Fri Nov  4 16:45:47 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:47 2022: Starting Socket connection
+Fri Nov  4 16:45:56 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:56 2022: Starting Socket connection
+Fri Nov  4 16:45:57 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:45:57 2022: Starting Socket connection
+Fri Nov  4 16:46:22 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:46:22 2022: Starting Socket connection
+Fri Nov  4 16:46:23 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:46:23 2022: Starting Socket connection
+Fri Nov  4 16:46:26 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:46:26 2022: Starting Socket connection
+Fri Nov  4 16:46:33 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:46:33 2022: Starting Socket connection
+Fri Nov  4 16:46:33 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:46:33 2022: Starting Socket connection
+Fri Nov  4 16:46:33 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:46:33 2022: Starting Socket connection
+Fri Nov  4 16:46:49 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:46:49 2022: Starting Socket connection
+Fri Nov  4 16:47:01 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:01 2022: Starting Socket connection
+Fri Nov  4 16:47:05 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:05 2022: Starting Socket connection
+Fri Nov  4 16:47:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:14 2022: Starting Socket connection
+Fri Nov  4 16:47:14 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:14 2022: Starting Socket connection
+Fri Nov  4 16:47:15 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:15 2022: Starting Socket connection
+Fri Nov  4 16:47:22 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:22 2022: Starting Socket connection
+Fri Nov  4 16:47:25 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:25 2022: Starting Socket connection
+Fri Nov  4 16:47:25 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:25 2022: Starting Socket connection
+Fri Nov  4 16:47:30 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:30 2022: Starting Socket connection
+Fri Nov  4 16:47:39 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:39 2022: Starting Socket connection
+Fri Nov  4 16:47:39 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:39 2022: Starting Socket connection
+Fri Nov  4 16:47:50 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:47:50 2022: Starting Socket connection
+Fri Nov  4 16:48:03 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:48:03 2022: Starting Socket connection
+Fri Nov  4 16:48:15 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:48:15 2022: Starting Socket connection
+Fri Nov  4 16:48:15 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:48:15 2022: Starting Socket connection
+Fri Nov  4 16:48:25 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:48:25 2022: Starting Socket connection
+Fri Nov  4 16:48:25 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:48:25 2022: Starting Socket connection
+Fri Nov  4 16:48:35 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:48:35 2022: Starting Socket connection
+Fri Nov  4 16:48:35 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:48:35 2022: Starting Socket connection
+Fri Nov  4 16:49:56 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:49:56 2022: Starting Socket connection
+Fri Nov  4 16:49:56 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:49:56 2022: Starting Socket connection
+Fri Nov  4 16:50:07 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:50:07 2022: Starting Socket connection
+Fri Nov  4 16:51:01 2022: Dispatch Server: Accepted socket connection from client
+Fri Nov  4 16:51:01 2022: Starting Socket connection
+Fri Nov  4 18:05:45 2022: SESSION_MGR: closing session for UUID '0565c519-3eef-480e-ba38-5ecf5361997e' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 18:05:45 2022: KERNEL_SVC: closing session for UUID '0565c519-3eef-480e-ba38-5ecf5361997e' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 18:05:45 2022: GUIDANCE_SMGR: closing session for UUID '0565c519-3eef-480e-ba38-5ecf5361997e' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 18:05:45 2022: SYSTEM_DIAGRAM: closing session for UUID '0565c519-3eef-480e-ba38-5ecf5361997e' with name 'v++_link_fpgabinary.hw'
+Fri Nov  4 18:05:45 2022: STOP_SERVER received, server token: 34bfc1bb-fadb-40c3-a66d-59f440ce5f0a, passed token: 34bfc1bb-fadb-40c3-a66d-59f440ce5f0a
+Fri Nov  4 18:05:45 2022: Socket received request to stop server.
+Fri Nov  4 18:05:45 2022: Dispatch Server: do_await_stop
+Fri Nov  4 18:05:45 2022: Dispatch Server: stopping mainFifo_
+Fri Nov  4 18:05:45 2022: XCD main fifo: Stopping
+Fri Nov  4 18:05:45 2022: XCD main fifo: do_read error code: Operation canceled
+Fri Nov  4 18:05:45 2022: XCD main fifo: bytes_transferred: 0
+Fri Nov  4 18:05:45 2022: SERVER: destructor for server bound to port 36617
+Fri Nov  4 18:05:45 2022: XCD main fifo: Good unlink of /tmp/xcdmain34bfc1bb-fadb-40c3-a66d-59f440ce5f0a
+Fri Nov  4 18:05:45 2022: Server exiting with status 0.
+Fri Nov  4 18:05:45 2022: Closing log file.
